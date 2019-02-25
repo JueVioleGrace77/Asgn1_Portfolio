@@ -13,11 +13,12 @@
         <% } %>
         <% if (title == "Services") { %>
           <% include ./partials/contents/service.ejs %>
-            <!-- <a class="btn btn-primary" href="/contact-list" role="button">Contact List</a> -->
+        <% } %>
+        <% if (title == "Credential") { %>
+          <% include ./partials/contents/credential.ejs %>
         <% } %>
         <% if (title == "Contact") { %>
          <% include ./partials/contents/contact.ejs %>
-           <!-- <a class="btn btn-primary" href="/contact-list" role="button">Contact List</a> -->
         <% } %>
       </div>
     </div>

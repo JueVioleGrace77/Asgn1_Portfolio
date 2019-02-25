@@ -19,6 +19,9 @@ module.exports.displayServicePage = (req, res, next ) => {
     res.render('index', { title: 'Services' });
   }
 
+module.exports.displayCredential = (req, res, next ) => {
+    res.render('index', {title: 'Credential'});
+}
 
 module.exports.displayContactPage = (req, res, next ) => {
     res.render('index', { title: 'Contact' });

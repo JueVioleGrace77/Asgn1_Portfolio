@@ -15,6 +15,9 @@ router.get('/projects', indexController.displayProductPage);
 /* GET services page. */
 router.get('/services', indexController.displayServicePage);
 
+/* GET credential page. */
+router.get('/credential', indexController.displayCredential);
+
 /* GET contact page. */
 router.get('/contact', indexController.displayContactPage);
 

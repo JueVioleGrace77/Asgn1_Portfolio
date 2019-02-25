@@ -72,6 +72,17 @@
             >
           </li>
 
+          <% if(title == "Credential") { %>
+          <li class="nav-item active"><% } else { %></li>
+
+          <li class="nav-item">
+            <% } %>
+
+            <a class="nav-link" href="/credential"
+              ><i class="fa fa-id-card-o" aria-hidden="true"></i> Credential</a
+            >
+          </li>
+
 
           <% if(title == "Contact") { %>
           <li class="nav-item active"><% } else { %></li>
